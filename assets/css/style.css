@@ -16829,8 +16829,8 @@ span.select2-selection.select2-selection--single:focus {
 .img-box2 {
   position: relative;
   z-index: 2;
-  margin-left: -305px;
-  height: 100%;
+  margin-left: -150px;
+  height: 730px;
   /* Extra large devices */
   /* Medium Large devices */
   /* Large devices */
@@ -20316,4 +20316,26 @@ span.select2-selection.select2-selection--single:focus {
   .header-button {
     display: none;
   }
+}
+
+
+.hero-inner {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-inner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* You can adjust the color and opacity */
+  z-index: 1;
+}
+
+.hero-inner .container {
+  position: relative;
+  z-index: 2;
 }
